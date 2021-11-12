@@ -8,3 +8,4 @@
 
 ### Notes:
 - Default user credentials can be found inside the SQL folder
+- Documents sent for submission are found in the Documents folder
