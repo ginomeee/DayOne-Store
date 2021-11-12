@@ -1,0 +1,20 @@
+orderId(AI){
+  notes
+  status(int)
+  user(varchar)
+  time_purchased
+  total_price
+}
+
+inventorylog(AI){
+  itemId
+  orderId
+  price
+}
+
+itemId(AI){
+  name
+  desc
+  price
+  img
+}

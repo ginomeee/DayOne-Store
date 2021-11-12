@@ -1,0 +1,15 @@
+INSERT INTO `items` (item,description,price,img) VALUES ('MX Master 3','The best of Logitech, the MX master',4895,'mx3.jpg')
+
+INSERT INTO `items` (item,description,price,img) VALUES ('TAG HEUER F1','Fine Swiss craftsmanship, the Tag Heuer F1 Batman Edition',76000,'tagf1.jpg')
+
+INSERT INTO `items` (item,description,price,img) VALUES ('Hamilton Khaki','The Hamilton Khaki watch is a classic that never goes out of style',68900,'hamilton.jpg')
+
+INSERT INTO `items` (item,description,price,img) VALUES ('Apple iPhone 13','The Most Powerful iPhone Yet comes with an improved camera',79990,'iphone13.jpg')
+
+INSERT INTO `items` (item,description,price,img) VALUES ('Canon 80D','Canons Best-Selling Prosumer DSLR Camera is here',49900,'eos80d.jpg')
+
+INSERT INTO `items` (item,description,price,img) VALUES ('ITee Shirt','Our best-selling IT themed dri-fit shirt, perfect for a run',490,'itee.jpg')
+
+INSERT INTO `items` (item,description,price,img) VALUES ('Communications Shirt','Wear your org in style with this DB Communications Shirt',460,'commstee.jpg')
+
+INSERT INTO `items` (item,description,price,img) VALUES ('Macbook Air 2020','Theres power in the Air. The Macbook Air M1 is finally here.',69990,'mbair.jpg')

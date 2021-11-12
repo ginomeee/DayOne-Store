@@ -1,0 +1,7 @@
+mysqli_connect("localhost", "root", "", "DayOneDB")
+mysqli_connect("localhost", "id17778834_root", "IT150Project!", "id17778834_dayonedb")
+mysqli_connect("localhost", "id17778834_root", "-2JrCu|K*@hws%OX", "id17778834_dayonedb")
+
+-2JrCu|K*@hws%OX
+id17778834_root
+id17778834_dayonedb
