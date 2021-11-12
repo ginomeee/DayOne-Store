@@ -12,11 +12,14 @@
 		$itemExists = mysqli_query($con, "SELECT * FROM `cart` WHERE itemId='$itemId' AND user='$user' AND orderId=0"); //checks if item exists and is not currently in an order
 		if (mysqli_num_rows($itemExists)>0){
 				mysqli_query($con,"UPDATE `cart` SET quantity=quantity+1 WHERE itemId='$itemId' AND user='$user'");
+				echo "<script>alert('Hello $user! Successfully updated cart quantity of item $itemId');";
+		        echo "window.location.assign('home.php');</script>";
 		} else {
 			mysqli_query($con, "INSERT INTO `cart` (user, itemId) VALUES ('$user','$itemId')"); //SQL query
-		}
-		echo "<script>alert('Successfully added to cart');";
-		echo "window.location.assign('home.php')</script>";
+			echo "<script>alert('Hey $user! Successfully added item $itemId to your cart');</script>";
+			echo "<script>window.location.assign('home.php');</script>";
+		} 
+		//echo "<script>window.location.assign('home.php');</script>";
 	}
 
 ?>

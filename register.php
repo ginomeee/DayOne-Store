@@ -35,11 +35,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 	$password2 = ($_POST['password2']);
 	$emailinp = ($_POST['email']);
 	$bool = true;
-	$db_name = "DayOneDB";
-	$db_username = "root";
-	$db_pass = "";
-	$db_host = "localhost";
-	$con = mysqli_connect("$db_host","$db_username","$db_pass", "$db_name") or die(mysqli_error()); //Connect to server
+	$con = mysqli_connect("localhost", "id17778834_root", "-2JrCu|K*@hws%OX", "id17778834_dayonedb") or die(mysqli_error()); //Connect to server
 	$uname = mysqli_query($con, "SELECT * FROM users WHERE username='$username'");
 	$email = mysqli_query($con, "SELECT * FROM users WHERE email='$emailinp'");
 	$passhash = password_hash($password, PASSWORD_DEFAULT);

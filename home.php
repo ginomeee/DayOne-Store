@@ -2,9 +2,9 @@
 <head>
     <title>DayOne Store</title>
     <link rel='icon' href='favicon.ico' type='image/x-icon' />
-	   <link href="bootstrap-5.0.2/css/bootstrap.css" rel="stylesheet" type="text/css">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	   <link href="main.css" rel="stylesheet" type="text/css">
+	  <link href="bootstrap-5.0.2/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	  <link href="main.css" rel="stylesheet" type="text/css">
 </head>
 
 
@@ -80,7 +80,7 @@
               Print '<div class="mt-auto mx-3 mb-3"><h5>₱'. $row['price'] . "</h5></div>";
               Print '<form method="POST" class="text-center" action="home-addcart.php">
                        <input type="hidden" name="itemId" value="' . $row['id'] . '" style="visibility:hidden">
-                       <button class="btn btn-outline-dark align-center w-75 m-2" style="border-radius:40px" >Add to Cart</button>
+                       <input type="submit" class="btn btn-outline-dark align-center w-75 m-2" style="border-radius:40px" value="Add to Cart"></input>
                      </form>
                   </div>';
         }

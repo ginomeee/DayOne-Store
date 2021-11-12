@@ -70,7 +70,7 @@ $email = $_SESSION['email']; //assigns user value
             </table>
         </div>
         <div class="col-lg-2">
-            <div class="card row p-4 mt-5 mb-4">
+            <div class="card row p-4 mt-5 mb-4 moderncard">
                 Welcome back
                 <h2><?php Print "$user"?></h2>
                 <h5><?php Print "$email"?></h5>
