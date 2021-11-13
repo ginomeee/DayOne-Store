@@ -1,4 +1,5 @@
 <?php
+	// Made by Gino Araullo (C) 2021
 	session_start();
 	if(isset($_SESSION['user']) && $_SESSION['usertype'] == 0){
 	} else {
